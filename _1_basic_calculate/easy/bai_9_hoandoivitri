@@ -1,0 +1,14 @@
+# Input:
+x = 10
+y = 20
+z=0
+print(x,y)
+
+z=x
+x=y
+y=z
+print(x,y)
+
+# Output:
+print()
+print
