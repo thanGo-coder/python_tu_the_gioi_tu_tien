@@ -1,0 +1,2 @@
+
+so=int(input("nhapso     "))
