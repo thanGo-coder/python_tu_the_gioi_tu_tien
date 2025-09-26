@@ -11,8 +11,16 @@
 # - **Output**:
     
 #     `"Số lẻ"` hoặc `"Số chẵn"`
-so=int(input("nhapso     "))
-if so%2==0:
-    print("sochan")
+so = int(input("Nhập số: "))
+if so == 0:
+    print("Số 0 là số chẵn và không âm không dương.")
+elif so > 0:
+    if so % 2 == 0:
+        print(f"Số {so} là số chẵn và là số dương.")
+    else
+        print(f"Số {so} là số lẻ và là số dương.")
 else:
-    print("sole")
+    if so % 2 == 0:
+        print(f"Số {so} là số chẵn và là số âm.")
+    else:
+        print(f"Số {so} là số lẻ và là số âm.")
