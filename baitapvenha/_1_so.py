@@ -17,7 +17,7 @@ if so == 0:
 elif so > 0:
     if so % 2 == 0:
         print(f"Số {so} là số chẵn và là số dương.")
-    else
+    else:
         print(f"Số {so} là số lẻ và là số dương.")
 else:
     if so % 2 == 0:
