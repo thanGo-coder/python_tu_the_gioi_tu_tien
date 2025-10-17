@@ -10,4 +10,4 @@ while n>0:
 print(dem)
 
 
-
+# bai2
